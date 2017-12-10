@@ -70,7 +70,8 @@ div>h2 - выбор дочернего элемента
 * last-of-type
 * :nth-of-type(odd, even)
 
-## 7. #target http://prgssr.ru/development/tryuki-s-psevdoklassom-target.html#heading-section
+## 7. :target 
+http://prgssr.ru/development/tryuki-s-psevdoklassom-target.html#heading-section
 ```
 <button>
 <a href="#signupForm">Подпишитесь на нашу рассылку</a>

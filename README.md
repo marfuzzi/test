@@ -7,6 +7,10 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 <![endif]-->
 ```
+Подключение шрифтов
+```
+<link href='http://fonts.googleapis.com/css?family=Kurale' rel='stylesheet'>
+```
 ---
 ## 2. Ссылки
 *__a:link__* - обозначает любую ссылку, по которой посетитель веб-страницы еще не переходил и на которую не наведен указатель мыши.  
@@ -71,7 +75,7 @@ div>h2 - выбор дочернего элемента
 * :nth-of-type(odd, even)
 
 ## 7. :target 
-http://prgssr.ru/development/tryuki-s-psevdoklassom-target.html#heading-section
+Трюки http://prgssr.ru/development/tryuki-s-psevdoklassom-target.html#heading-section
 ```
 <button>
 <a href="#signupForm">Подпишитесь на нашу рассылку</a>

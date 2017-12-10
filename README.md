@@ -7,7 +7,7 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 <![endif]-->
 ```
-
+---
 ## 2. Ссылки
 *__a:link__* - обозначает любую ссылку, по которой посетитель веб-страницы еще не переходил и на которую не наведен указатель мыши.  
    *__a:visited__* - обозначает любую ссылку, по которой посетитель веб-страницы уже переходил.  
@@ -59,4 +59,37 @@ a[href^="http://"], a[href^="https://"]
 * img[src*="photo"] - выберите все изображения повсюду, атрибут src
 которых содержит слово photo
 
-## 6. 
+## 6. Дочерние селекторы, псевдоклассы
+div h2 - выбор потомка
+div>h2 - выбор дочернего элемента
+* :first-child
+* :last-child
+* :only-child
+* :nth-child(even, odd, 3n, 3n+3, -n+6)
+* first-of-type
+* last-of-type
+* :nth-of-type(odd, even)
+
+## 7. #target http://prgssr.ru/development/tryuki-s-psevdoklassom-target.html#heading-section
+```
+<button>
+<a href="#signupForm">Подпишитесь на нашу рассылку</a>
+</button>
+<form id="signupForm">
+<label for="email">Укажите свой адрес электронной почты</label>
+<input type="email" id="email">
+<input class="btn" type="submit" value="Подписаться">
+</form>
+```
+Когда посетитель сайта щелкнет кнопкой мыши на ссылке (элемент a ), форма
+станет целевой.
+```
+#signupForm {
+display: none;
+}
+#signupForm:target {
+display: block;
+}
+```
+## 8. 
+

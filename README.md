@@ -96,5 +96,11 @@ display: none;
 display: block;
 }
 ```
-## 8. 
+## 8. Приоритет
+!important->style->class->tag  
+Переопределить стили можно подключением другого файла со стилями
+
+.hit+.miss( если miss сразу после hit)
+ul>li (если li-дочка)
+ul li (если пототок)
 

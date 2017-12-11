@@ -103,4 +103,4 @@ display: block;
 .hit+.miss( если miss сразу после hit)
 ul>li (если li-дочка)
 ul li (если пототок)
-
+---

@@ -1,6 +1,5 @@
-## 1.  Использование шрифтов в браузерах https://www.cssfontstack.com/
-## 2. 
-@font-face {
-font-family: "League Gothic";
-src: url('fonts/League_Gothic-web font.woff');
-}
+## 1. Блочная модель
+* box-sizing
+**content-box**
+**padding-box** сообщает браузеру, что при установке для стиля свойства ширины
+или высоты они должны включать отступы как часть своего значения

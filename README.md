@@ -1,7 +1,6 @@
-#### Веб-интерфейс для локального git репозитория.
+## Веб-интерфейс для локального git репозитория.
 Решение домашнего задание по теме "Node.js".
-### Production
+#### Production
 https://ya-git-prod.herokuapp.com/
-
-### Development
+#### Development
 https://ya-git-dev.herokuapp.com/

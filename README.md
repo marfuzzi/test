@@ -1,10 +1,13 @@
 
-# Веб-интерфейс для локального git репозитория.
+## Веб-интерфейс для локального git репозитория.
 Решение домашнего задание по теме "Node.js + Инфраструктура +Тесты".
-#### Production
-https://ya-git-prod.herokuapp.com/
-#### Development
-https://ya-git-dev.herokuapp.com/
+**Production** https://ya-git-prod.herokuapp.com/
+**Development** https://ya-git-dev.herokuapp.com/
+
+##### Содержание
+[Node.js](#node)
+[Инфраструктура](#infrastructure)
+[Тесты](#tests)
 
 ## Node.js
 

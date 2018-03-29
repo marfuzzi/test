@@ -1,15 +1,13 @@
 Веб-интерфейс для локального git репозитория
 ---------------------
 
-[Production](https://ya-git-prod.herokuapp.com/)
-[Development](https://ya-git-dev.herokuapp.com/)
-
-Поиграть с разметкой Markdown можно на [демо-странице](http://www.markdown-here.com/livedemo.html).
+* [Production](https://ya-git-prod.herokuapp.com/)
+* [Development](https://ya-git-dev.herokuapp.com/)
 
 ##### Содержание
-[Node.js](#node)
-[Инфраструктура](#infrastructure)
-[Тесты](#tests)
+* [Node.js](#node)
+* [Инфраструктура](#infrastructure)
+* [Тесты](#tests)
 
 <a name="headers"><h2>Заголовки</h2></a>
 
